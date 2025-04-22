@@ -3,10 +3,11 @@ title: "Contact Us"
 layout: "contact"
 draft: false
 info: 
-  title: Why you should contact us!
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
+  title: Contactanos!
+  description: comunicate con nosotros y pide tu cotización.
   contacts: 
-    - "phone: +88 125 256 452"
-    - "Mail: [info@bigspring.com](mailto:info@bigspring.com)"
-    - "Address: 360 Main rd, Rio, Brazil"
+    - "Telefono: +18296709760"
+    - "whatsapp: +18296709760"
+    - "Email: [eugenio-1910@hotmail.com](mailto:eugenio-1910@hotmail.com)"
+    - "Direccion: Provincia San Pedro, Municipio Consuelo, Calle L 46"
 ---
