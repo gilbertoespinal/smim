@@ -4,10 +4,6 @@
       "name": "Home",
       "url": "/"
     },
-    {
-      "name": "Blog",
-      "url": "/blogs"
-    },
     
     {
       "name": "Contact",
@@ -52,14 +48,7 @@
     {
       "name": "Support",
       "menu": [
-        {
-          "text": "FAQ",
-          "url": "/faq"
-        },
-        {
-          "text": "Privacy Policy",
-          "url": "#"
-        },
+     
         {
           "text": "Terms & Conditions",
           "url": "#"
