@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Disallow: /api/*
+Sitemap: https://www.smim.com.do/sitemap.xml
+

@@ -1,0 +1,388 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout 
+  title="SMIM - Instalación y Mantenimiento en República Dominicana | Aire Acondicionado, Cámaras y Portones"
+  description="Servicios profesionales de instalación y mantenimiento de aire acondicionado, cámaras de seguridad y portones eléctricos en República Dominicana. Cobertura en Santo Domingo y todo el país."
+  keywords="aire acondicionado República Dominicana, instalación AC Santo Domingo, cámaras seguridad RD, portones eléctricos, mantenimiento aire acondicionado, videovigilancia República Dominicana"
+>
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-title">Soluciones Profesionales en República Dominicana</h1>
+        <p class="hero-subtitle">
+          Especialistas en instalación y mantenimiento de aire acondicionado, 
+          cámaras de seguridad y portones eléctricos en Santo Domingo y todo el país
+        </p>
+        <div class="hero-buttons">
+          <a href="/contacto" class="btn">Solicitar Presupuesto</a>
+          <a href="#servicios" class="btn btn-secondary">Ver Servicios</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-bg"></div>
+  </section>
+
+  <section class="features">
+    <div class="container">
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">✓</div>
+          <h3>Experiencia</h3>
+          <p>Más de 10 años brindando servicios de calidad en RD</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>Rapidez</h3>
+          <p>Respuesta inmediata a tus necesidades</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🛡️</div>
+          <h3>Garantía</h3>
+          <p>Todos nuestros trabajos están garantizados</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">💰</div>
+          <h3>Precios Justos</h3>
+          <p>Presupuestos competitivos y transparentes</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicios" class="services">
+    <div class="container">
+      <div class="section-header">
+        <h2>Nuestros Servicios</h2>
+        <p>Ofrecemos soluciones integrales para tu comodidad y seguridad</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-image">
+            <div class="service-icon">❄️</div>
+          </div>
+          <div class="service-content">
+            <h3>Aire Acondicionado</h3>
+            <p>Instalación, mantenimiento y reparación de sistemas de climatización en República Dominicana. 
+               Trabajamos con las mejores marcas adaptadas al clima tropical.</p>
+            <ul class="service-list">
+              <li>Instalación de equipos nuevos</li>
+              <li>Mantenimiento preventivo</li>
+              <li>Reparaciones y diagnóstico</li>
+              <li>Carga de gas refrigerante</li>
+            </ul>
+            <a href="/aire-acondicionado" class="btn">Más Información</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-image">
+            <div class="service-icon">📹</div>
+          </div>
+          <div class="service-content">
+            <h3>Cámaras de Seguridad</h3>
+            <p>Sistemas de videovigilancia de última generación para proteger 
+               tu hogar o negocio en República Dominicana las 24 horas.</p>
+            <ul class="service-list">
+              <li>Cámaras IP y analógicas</li>
+              <li>Grabación en la nube</li>
+              <li>Visión nocturna</li>
+              <li>Acceso remoto desde móvil</li>
+            </ul>
+            <a href="/camaras-seguridad" class="btn">Más Información</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-image">
+            <div class="service-icon">🚪</div>
+          </div>
+          <div class="service-content">
+            <h3>Portones Eléctricos</h3>
+            <p>Automatización de portones y puertas con sistemas seguros 
+               y duraderos para mayor comodidad.</p>
+            <ul class="service-list">
+              <li>Motores para portones corredizos</li>
+              <li>Sistemas basculantes</li>
+              <li>Control remoto y app móvil</li>
+              <li>Mantenimiento y reparación</li>
+            </ul>
+            <a href="/portones-electricos" class="btn">Más Información</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container">
+      <div class="cta-content">
+        <h2>¿Necesitas un Presupuesto?</h2>
+        <p>Contáctanos hoy y recibe una cotización sin compromiso</p>
+        <a href="/contacto" class="btn btn-large">Contactar Ahora</a>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .hero {
+    position: relative;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+  }
+
+  .hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+      radial-gradient(circle at 20% 50%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
+      radial-gradient(circle at 80% 80%, rgba(255, 255, 255, 0.1) 0%, transparent 50%);
+    z-index: 0;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    max-width: 800px;
+    padding: 2rem;
+  }
+
+  .hero-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+  }
+
+  .hero-subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    opacity: 0.95;
+    line-height: 1.6;
+  }
+
+  .hero-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .btn-large {
+    padding: 1.25rem 2.5rem;
+    font-size: 1.125rem;
+  }
+
+  @media (max-width: 768px) {
+    .hero {
+      min-height: 500px;
+    }
+
+    .hero-title {
+      font-size: 2rem;
+    }
+
+    .hero-subtitle {
+      font-size: 1rem;
+    }
+
+    .hero-buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .hero-buttons .btn {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+
+  .features {
+    padding: 4rem 0;
+    background: var(--bg-light);
+  }
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+
+  .feature-card {
+    text-align: center;
+    padding: 2rem;
+    background: white;
+    border-radius: 1rem;
+    box-shadow: var(--shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+  }
+
+  .feature-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .feature-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+  }
+
+  .services {
+    padding: 5rem 0;
+  }
+
+  .section-header {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 4rem;
+  }
+
+  .section-header h2 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+  }
+
+  .section-header p {
+    font-size: 1.125rem;
+    color: var(--text-light);
+  }
+
+  .services-grid {
+    display: grid;
+    gap: 3rem;
+  }
+
+  .service-card {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+    background: white;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+  }
+
+  .service-image {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+  }
+
+  .service-icon {
+    font-size: 5rem;
+  }
+
+  .service-content {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .service-content h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+  }
+
+  .service-content > p {
+    color: var(--text-light);
+    margin-bottom: 1.5rem;
+  }
+
+  .service-list {
+    list-style: none;
+    margin-bottom: 2rem;
+    flex-grow: 1;
+  }
+
+  .service-list li {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    color: var(--text-dark);
+  }
+
+  .service-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--secondary-color);
+    font-weight: bold;
+  }
+
+  @media (max-width: 968px) {
+    .service-card {
+      grid-template-columns: 1fr;
+    }
+
+    .service-image {
+      min-height: 200px;
+    }
+
+    .service-icon {
+      font-size: 4rem;
+    }
+  }
+
+  .cta {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    padding: 5rem 0;
+    text-align: center;
+  }
+
+  .cta-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .cta-content p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    opacity: 0.95;
+  }
+
+  .cta .btn {
+    background: white;
+    color: var(--primary-color);
+  }
+
+  .cta .btn:hover {
+    background: var(--bg-light);
+    transform: translateY(-3px);
+  }
+
+  @media (max-width: 768px) {
+    .cta-content h2 {
+      font-size: 1.75rem;
+    }
+
+    .cta-content p {
+      font-size: 1rem;
+    }
+  }
+</style>
